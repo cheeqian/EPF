@@ -9,7 +9,18 @@
         android:id="@+id/nav_home"
         android:name="my.edu.tarc.epf.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_dividend"
+            app:destination="@id/nav_dividend"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_investment"
+            app:destination="@id/nav_investment"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -32,4 +43,13 @@
         android:name="my.edu.tarc.epf.ui.investment.InvestmentFragment"
         android:label="@string/menu_investment"
         tools:layout="@layout/fragment_investment" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="my.edu.tarc.epf.ui.about.AboutFragment"
+        android:label="@string/action_about" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="my.edu.tarc.epf.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

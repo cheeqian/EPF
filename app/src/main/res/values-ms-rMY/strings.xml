@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KWSP</string>
+    <string name="action_settings">Tetapan</string>
+    <string name="action_about">Tentang</string>
+    <string name="menu_home">Rumah</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_slideshow">Pembentangan</string>
+    <string name="menu_dividend">Dividen</string>
+    <string name="menu_investment">Pelaburan</string>
+    <string name="year">Tahun</string>
+    <string name="shariah">Shariah</string>
+    <string name="conventional">Konvensional</string>
+    <string name="calculate">Kira</string>
+    <string name="reset">Semula</string>
+    <string name="age">Umur</string>
+</resources>
